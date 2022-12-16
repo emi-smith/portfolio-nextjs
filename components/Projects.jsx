@@ -14,7 +14,7 @@ const Projects = () => {
 					<ProjectItem
 						title='Sticky Notes'
 						backgroundImg={stickynoteprojectimage}
-						projecturl='https://sticky-notes-gilt.vercel.app/'
+						projecturl='/sticky - notes'
 					/>
 					<ProjectItem
 						title='Will Update Projects'
