@@ -4,7 +4,7 @@ import stickynoteprojectimage from "../public/assets/projects/sticky-note-projec
 
 const Projects = () => {
 	return (
-		<div className='w-full'>
+		<div id='Projects' className='w-full'>
 			<div className='max-w-[1240px] mx-auto px-z py-16 pl-4'>
 				<p className=' uppercase text-xl tracking-widest text-[#5651e5]'>
 					Projects
