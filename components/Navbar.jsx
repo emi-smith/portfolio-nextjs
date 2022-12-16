@@ -33,29 +33,31 @@ const Navbar = () => {
 			}
 		>
 			<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-				<Image
-					src='/../public/assets/Navlogo.png'
-					alt='/'
-					width='125'
-					height='50'
-				/>
+				<Link href='/'>
+					<Image
+						src='/../public/assets/Navlogo.png'
+						alt='/'
+						width='125'
+						height='50'
+					/>
+				</Link>
 				<div>
 					<ul className='hidden md:flex'>
-						<Link href='/'>
+						<Link href='/#Main'>
 							<li className='ml-10 text-sm uppercase hover:bottom-b'>Home</li>
 						</Link>
-						<Link href='/'>
+						<Link href='/#About'>
 							<li className='ml-10 text-sm uppercase hover:bottom-b'>About</li>
 						</Link>
-						<Link href='/'>
+						<Link href='/#Skills'>
 							<li className='ml-10 text-sm uppercase hover:bottom-b'>Skills</li>
 						</Link>
-						<Link href='/'>
+						<Link href='/#Projects'>
 							<li className='ml-10 text-sm uppercase hover:bottom-b'>
 								Projects
 							</li>
 						</Link>
-						<Link href='/'>
+						<Link href='/#Contact'>
 							<li className='ml-10 text-sm uppercase hover:bottom-b'>
 								Contact
 							</li>
@@ -106,19 +108,19 @@ const Navbar = () => {
 					</div>
 					<div className='py-4 flex flex-col'>
 						<ul className='uppercase'>
-							<Link href='/'>
+							<Link href='/#Main'>
 								<li className='py-4 text-sm'>Home</li>
 							</Link>
-							<Link href='/'>
+							<Link href='/#About'>
 								<li className='py-4 text-sm'>About</li>
 							</Link>
-							<Link href='/'>
+							<Link href='/#Skills'>
 								<li className='py-4 text-sm'>Skills</li>
 							</Link>
-							<Link href='/'>
+							<Link href='/#Projects'>
 								<li className='py-4 text-sm'>Projects</li>
 							</Link>
-							<Link href='/'>
+							<Link href='/#Contacts'>
 								<li className='py-4 text-sm'>Contact</li>
 							</Link>
 						</ul>
