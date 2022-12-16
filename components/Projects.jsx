@@ -5,12 +5,12 @@ import stickynoteprojectimage from "../public/assets/projects/sticky-note-projec
 const Projects = () => {
 	return (
 		<div className='w-full'>
-			<div className='max-w-[1240px] mx-auto px-z py-16'>
+			<div className='max-w-[1240px] mx-auto px-z py-16 pl-4'>
 				<p className=' uppercase text-xl tracking-widest text-[#5651e5]'>
 					Projects
 				</p>
-				<h2 className='py-4'>What I've Build</h2>
-				<div className='grid md:grid-cols-2 gap-4'>
+				<h2 className='py-4'>What I&aposve Build</h2>
+				<div className='grid md:grid-cols-2 gap-8'>
 					<ProjectItem
 						title='Sticky Notes'
 						backgroundImg={stickynoteprojectimage}
