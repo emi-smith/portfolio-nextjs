@@ -109,19 +109,29 @@ const Navbar = () => {
 					<div className='py-4 flex flex-col'>
 						<ul className='uppercase'>
 							<Link href='/#Main'>
-								<li className='py-4 text-sm'>Home</li>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Home
+								</li>
 							</Link>
 							<Link href='/#About'>
-								<li className='py-4 text-sm'>About</li>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									About
+								</li>
 							</Link>
 							<Link href='/#Skills'>
-								<li className='py-4 text-sm'>Skills</li>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Skills
+								</li>
 							</Link>
 							<Link href='/#Projects'>
-								<li className='py-4 text-sm'>Projects</li>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Projects
+								</li>
 							</Link>
-							<Link href='/#Contacts'>
-								<li className='py-4 text-sm'>Contact</li>
+							<Link href='/#Contact'>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Contact
+								</li>
 							</Link>
 						</ul>
 						<div className='pt-40 '>
