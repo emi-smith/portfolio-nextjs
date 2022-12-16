@@ -26,7 +26,6 @@ const Navbar = () => {
 
 	return (
 		<div
-			id='Navbar'
 			className={
 				shadow
 					? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-slate-100/80"
