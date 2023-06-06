@@ -4,10 +4,31 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const [shadow, setShadow] = useState(false);
+	const [navBg, setNavBg] = useState("#ecf0f3");
+	const [linkColor, setLinkColor] = useState("#1f2937");
+	const [position, setPosition] = useState("fixed");
+	const router = useRouter();
+
+	useEffect(() => {
+		if (
+			router.asPath === "/sticky-notes"
+			//   ||
+			//   router.asPath === '/crypto' ||
+			//   router.asPath === '/netflix' ||
+			//   router.asPath === '/twitch'
+		) {
+			setNavBg("transparent");
+			setLinkColor("#ecf0f3");
+		} else {
+			setNavBg("#ecf0f3");
+			setLinkColor("#1f2967");
+		}
+	}, [router]);
 
 	const handleNav = () => {
 		setNav(!nav);
@@ -26,9 +47,10 @@ const Navbar = () => {
 
 	return (
 		<div
+			style={{ backgroundColor: `${navBg}` }}
 			className={
 				shadow
-					? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-slate-100/80"
+					? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
 					: "fixed w-full h-20 z-[100]"
 			}
 		>
@@ -42,7 +64,7 @@ const Navbar = () => {
 					/>
 				</Link>
 				<div>
-					<ul className='hidden md:flex'>
+					<ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
 						<Link href='/#Main'>
 							<li className='ml-10 text-sm uppercase hover:bottom-b'>Home</li>
 						</Link>
@@ -64,7 +86,11 @@ const Navbar = () => {
 						</Link>
 					</ul>
 					{/* Hamburger Icon */}
-					<div onClick={handleNav} className='md:hidden'>
+					<div
+						style={{ color: `${linkColor}` }}
+						onClick={handleNav}
+						className='md:hidden'
+					>
 						<AiOutlineMenu size={25} />
 					</div>
 				</div>
@@ -136,19 +162,31 @@ const Navbar = () => {
 						</ul>
 						<div className='pt-40 '>
 							<p className='uppercase tracking-widest text-[#5651e5]'>
-								Let&aposs Connect
+								Let's Connect
 							</p>
 							<div className='flex item-center justify-between my-4 w-full sm:w-[80%]'>
-								<div className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'>
+								<div
+									onClick={() => setNav()}
+									className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'
+								>
 									<FaLinkedinIn />
 								</div>
-								<div className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'>
+								<div
+									onClick={() => setNav()}
+									className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'
+								>
 									<FaGithub />
 								</div>
-								<div className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'>
+								<div
+									onClick={() => setNav()}
+									className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'
+								>
 									<AiOutlineMail />
 								</div>
-								<div className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'>
+								<div
+									onClick={() => setNav()}
+									className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'
+								>
 									<BsPersonLinesFill />
 								</div>
 							</div>

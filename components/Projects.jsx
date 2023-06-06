@@ -9,12 +9,12 @@ const Projects = () => {
 				<p className=' uppercase text-xl tracking-widest text-[#5651e5]'>
 					Projects
 				</p>
-				<h2 className='py-4'>What I&aposve Build</h2>
+				<h2 className='py-4'>What I've Build</h2>
 				<div className='grid md:grid-cols-2 gap-8'>
 					<ProjectItem
 						title='Sticky Notes'
 						backgroundImg={stickynoteprojectimage}
-						projecturl='/sticky - notes'
+						projecturl='/sticky-notes'
 					/>
 					<ProjectItem
 						title='Will Update Projects'
