@@ -10,7 +10,7 @@ const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const [shadow, setShadow] = useState(false);
 	const [navBg, setNavBg] = useState("#ecf0f3");
-	const [linkColor, setLinkColor] = useState("#1f2937");
+	const [linkColor, setLinkColor] = useState("#62806a");
 	const [position, setPosition] = useState("fixed");
 	const router = useRouter();
 
@@ -26,7 +26,7 @@ const Navbar = () => {
 			setLinkColor("#ecf0f3");
 		} else {
 			setNavBg("#ecf0f3");
-			setLinkColor("#1f2967");
+			setLinkColor("#62806a");
 		}
 	}, [router]);
 
@@ -161,8 +161,8 @@ const Navbar = () => {
 							</Link>
 						</ul>
 						<div className='pt-40 '>
-							<p className='uppercase tracking-widest text-[#5651e5]'>
-								Let's Connect
+							<p className='uppercase tracking-widest text-[#62806a]'>
+								Let&apos;s Connect
 							</p>
 							<div className='flex item-center justify-between my-4 w-full sm:w-[80%]'>
 								<div
