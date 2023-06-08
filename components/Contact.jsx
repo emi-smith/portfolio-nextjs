@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import ContactImg from "../public/assets/contact.jpg";
 
 const Contact = () => {
 	return (
@@ -21,7 +22,7 @@ const Contact = () => {
 							<div className='flex flex-col items-center justify-evenly'>
 								<Image
 									className='rounded-xl hover:scale-105 ease-in duration-300'
-									src='/../public/assets/contact.jpg'
+									src={ContactImg}
 									alt='/'
 									width='550'
 									height='600'
