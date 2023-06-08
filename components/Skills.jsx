@@ -1,5 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import HtmlImg from "../public/assets/skills/html-logo.png";
+import CssImg from "../public/assets/skills/css-logo.png";
+import JavascriptImg from "../public/assets/skills/javascript-logo.png";
+import TailwindImg from "../public/assets/skills/tailwind-css-logo.png";
+import ReactImg from "../public/assets/skills/react-logo.png";
+import GithubImg from "../public/assets/skills/github-logo.png";
+
 const Skills = () => {
 	return (
 		<div id='Skills' className='w-full lg:h-screen p-2 pl-4'>
@@ -12,12 +19,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/html-logo.png'
-									width='64'
-									height='64'
-									alt='/'
-								/>
+								<Image src={HtmlImg} width='64' height='64' alt='/' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>HTML</h2>
@@ -27,12 +29,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/css-logo.png'
-									width='64'
-									height='64'
-									alt='/'
-								/>
+								<Image src={CssImg} width='64' height='64' alt='/' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>CSS</h2>
@@ -42,12 +39,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/javascript-logo.png'
-									width='64'
-									height='64'
-									alt='/'
-								/>
+								<Image src={JavascriptImg} width='64' height='64' alt='/' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>JavaScript</h2>
@@ -57,12 +49,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/tailwind-css-logo.png'
-									width='64'
-									height='64'
-									alt='/'
-								/>
+								<Image src={TailwindImg} width='64' height='64' alt='/' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>Tailwind</h2>
@@ -72,12 +59,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/react-logo.png'
-									width='64'
-									height='64'
-									alt='/'
-								/>
+								<Image src={ReactImg} width='64' height='64' alt='/' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>React</h2>
@@ -87,12 +69,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/github-logo.png'
-									width='64'
-									height='64'
-									alt='/'
-								/>
+								<Image src={GithubImg} width='64' height='64' alt='/' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>GitHub</h2>
