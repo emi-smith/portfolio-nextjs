@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Name
 
-## Getting Started
+### Table of Contents
 
-First, run the development server:
+- [Description](#Description)
+- [Technologies Used](#Technologies-Used)
+- [Landing Page Visuals](#Landing-Page-Visuals)
+  - [Web](#Web)
+  - [Mobile](#Mobile)
+- [What I enjoyed](#What-I-enjoyed)
+- [Issues and future changes](#Issues-and-future-changes)
+- [Referenced Materials](#Referenced-Materials)
+  - [Next JS and Tailwind](#Next-JS-and-Tailwind)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project was built so I could start learning Next JS and Tailwind. This is the first project I have built with Next Js and Tailwind, I will be building more projects in the future utilizing both to increase my knowledge and skills.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[Table of Contents](#Table-of-Contents)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies-Used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Next JS
+- Tailwind
+- Git
+- GitHub
+- NodeJS
 
-## Learn More
+[Table of Contents](#Table-of-Contents)
 
-To learn more about Next.js, take a look at the following resources:
+## Landing-Page-Visuals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Table of Contents](#Table-of-Contents)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Web
 
-## Deploy on Vercel
+![Screenshot](/README-IMGS/es-product-details-web.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Table of Contents](#Table-of-Contents)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Mobile
+
+[Table of Contents](#Table-of-Contents)
+
+## What-I-enjoyed
+
+Comparing this project to my previous projects using CSS, HTML, and JavaScript, I really enjoyed the organization that comes with using NEXT JS. It makes a world of a difference when reading through your code, especially when looking for a specific component or when you are coming back to a project you have not worked on in awhile. I look forward to building more projects with NEXT JS.
+
+It was fun learning how to utilize Tailwind in this project. It is very convenient to style components within the JS file, less going back and forth between files is a huge time saver.
+
+[Table of Contents](#Table-of-Contents)
+
+## Issues-and-future-changes
+
+### Issues I came across during the build:
+
+### Features that will be added in the future:
+
+There are no plans for future changes.
+
+[Table of Contents](#Table-of-Contents)
+
+## Referenced-Materials
+
+### Next JS and Tailwind
+
+[Next JS and Tailwind](https://www.youtube.com/watch?v=CMx51wpd7g4&t=377s)
+
+[Table of Contents](#Table-of-Contents)
