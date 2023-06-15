@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import AboutImg from "../public/assets/emily-headshot.jpg";
 
 const About = () => {
@@ -12,22 +13,25 @@ const About = () => {
 					</p>
 					<h2 className='py-4'>Who I Am</h2>
 					<p className='py-2 text-gray-600'>
-						Description of myself, what I do, what I like to do, my strengths.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat.
+						I am a diligent individual with experience in web design,
+						development and health information technology. I can quickly learn
+						new software and programs to meet the needs of the project within
+						specified deadlines. I have created solutions that improve
+						communication, productivity, and project management within
+						organizations.
 					</p>
 					<p className='py-2 text-gray-600'>
-						Description of myself, what I do, what I like to do, my strengths.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat.
+						I am resourceful and take initiative in identifying and resolving
+						problems. I have strong work ethics, pay close attention to detail,
+						and am capable of working independently. I am able to adapt to
+						changes and am self-motivated.
 					</p>
-					<p className='py-2 text-gray-600 underline cursor-pointer'>
-						Check out some of my latest projects.
-					</p>
+
+					<Link href='/resume'>
+						<p className='flex justify-center py-4 text-[#62806a] cursor-pointer'>
+							VIEW MY RESUME.
+						</p>
+					</Link>
 				</div>
 				<div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
 					<Image
