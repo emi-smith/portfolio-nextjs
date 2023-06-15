@@ -30,29 +30,39 @@ const Contact = () => {
 							</div>
 							<div className='flex flex-col items-center justify-evenly'>
 								<h2 className='py-6'>Emily Smith</h2>
-								<p>Front-end Developer</p>
-								<p className='py-4'>
-									I am available for freelance or full-time positions.
-									Let&apos;s get in contact.
+								<p className='py2'>
+									I focus on design and front-end development.
+								</p>
+								<p className='py-2'>
+									I am available for freelance, contract, part-time or full-time
+									positions. Let&apos;s get in contact.
 								</p>
 							</div>
 							<div>
 								<p className='flex flex-col items-center justify-evenly uppercase pt-8 pb-2'>
 									Connect with Me
 								</p>
-								<div className='flex items-center justify-evenly py-4 '>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 ease-in duration-300'>
-										<FaLinkedinIn />
-									</div>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 ease-in duration-300'>
-										<FaGithub />
-									</div>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 ease-in duration-300'>
-										<AiOutlineMail />
-									</div>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 ease-in duration-300'>
-										<BsPersonLinesFill />
-									</div>
+								<div className='flex items-center justify-center gap-12 max-w-[330px] m-auto py-10 '>
+									<Link href={"https://www.linkedin.com/in/emily-smith-em/"}>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+											<FaLinkedinIn />
+										</div>
+									</Link>
+									<Link href={"https://github.com/emi-smith"}>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+											<FaGithub />
+										</div>
+									</Link>
+									<Link href={"mailto:emilysmith.design.dev@gmail.com"}>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+											<AiOutlineMail />
+										</div>
+									</Link>
+									<Link href={"/resume"}>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+											<BsPersonLinesFill />
+										</div>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -108,9 +118,14 @@ const Contact = () => {
 										name='message'
 									></textarea>
 								</div>
-								<button className='w-full p-4 text-gray-100 mt-4'>
+								<button className='w-full p-4 text-gray-100 mt-6'>
 									Send Message
 								</button>
+								<div className='flex justify-center p-3'>
+									<p className='italic text-xs text-slate-600'>
+										This form intentionally does not submit data.
+									</p>
+								</div>
 							</form>
 						</div>
 					</div>
