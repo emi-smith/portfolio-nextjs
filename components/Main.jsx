@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
+import Link from "next/link";
 
 const Main = () => {
 	return (
@@ -22,33 +23,40 @@ const Main = () => {
 					</h2>
 					<p className='pt-8 pb-2 text-gray-600 max-w-[70%] m-auto'>
 						My passion for design and development grew during my time in college
-						and running my jewelry business. Between computer science classes
-						and teaching myself how to code, I built a website for my previous
-						jewelry business. This experience helped me realize that web design
-						and development is my true passion. I love the creative process,
-						thrive on being challenged, and enjoy problem-solving. I am deeply
-						passionate about every project I work on, whether it is my own or
-						for others.{" "}
+						and developing my jewelry business. Between classes, running my
+						business, and being a wife and mom of three, I taugh myself how to
+						code and built a website for my jewelry business. This experience
+						helped me realize that web design and development is my true
+						passion. I love the creative process, thrive on being challenged,
+						and enjoy problem-solving. I am deeply passionate about every
+						project I work on, whether it is my own or for others.{" "}
 					</p>
 					<p className='pt-2 pb-8 text-gray-600 max-w-[70%] m-auto'>
 						My focus is on creating user-friendly and mobile-responsive designs
 						and front-end development. There is nothing more frustrating than
-						clicking into a website on your mobile device and finding it
-						unusable.{" "}
+						clicking into a mobile website and finding it unusable.{" "}
 					</p>
-					<div className='flex items-center justify-between max-w-[330px] m-auto py-10 '>
-						<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-							<FaLinkedinIn />
-						</div>
-						<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-							<FaGithub />
-						</div>
-						<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-							<AiOutlineMail />
-						</div>
-						<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-							<BsPersonLinesFill />
-						</div>
+					<div className='flex items-center justify-center gap-16 max-w-[330px] m-auto py-10 '>
+						<Link href={"https://www.linkedin.com/in/emily-smith-em/"}>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+								<FaLinkedinIn />
+							</div>
+						</Link>
+						<Link href={"https://github.com/emi-smith"}>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+								<FaGithub />
+							</div>
+						</Link>
+						<Link href={"mailto:emilysmith.design.dev@gmail.com"}>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+								<AiOutlineMail />
+							</div>
+						</Link>
+						<Link href={"/resume"}>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
+								<BsPersonLinesFill />
+							</div>
+						</Link>
 					</div>
 				</div>
 			</div>
