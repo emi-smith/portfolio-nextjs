@@ -27,7 +27,12 @@ const stickyNotes = () => {
 						Project
 					</p>
 					<h2 className='pb-2'>Overview</h2>
-					<p>Add app information here.</p>
+					<p>
+						A simple sticky note project, my goal with this project was to learn
+						how to get and store data to local storage. I will be building a
+						drag and drop to do list to get more experience with JavaScript and
+						local storage.
+					</p>
 
 					<div className='grid grid-cols-2 justify-items-center pt-5 pb-10'>
 						<a
@@ -58,6 +63,12 @@ const stickyNotes = () => {
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> Javascript
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Git
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> GitHub
 							</p>
 						</div>
 					</div>
