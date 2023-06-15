@@ -27,7 +27,14 @@ const stickynotes = () => {
 						Project
 					</p>
 					<h2 className='pb-2'>Overview</h2>
-					<p>Add app information here.</p>
+					<p>
+						Em&apos;s Shore is a business that I opened and ran in 2014 to 2020
+						before switching careers. I taught myself how to design and develop
+						while building Em&apos;s Shore website and is where I started to
+						fall in love with website design and development. I do not have the
+						original source code, so I built this landing page to showcase some
+						of the HTML and CSS skills I&apos;ve learned.
+					</p>
 
 					<div className='grid grid-cols-2 justify-items-center pt-5 pb-10'>
 						<a
@@ -58,6 +65,12 @@ const stickynotes = () => {
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> Javascript
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Git
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> GitHub
 							</p>
 						</div>
 					</div>
