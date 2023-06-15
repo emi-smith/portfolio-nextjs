@@ -14,7 +14,7 @@
 
 ## Description
 
-This project was built so I could start learning Next JS and Tailwind. This is the first project I have built with Next Js and Tailwind, I will be building more projects in the future utilizing both to increase my knowledge and skills.
+This project was built so I could start learning Next.js and Tailwind. This is the first project I have built with Next.js and Tailwind, I will be building more projects in the future utilizing both to increase my knowledge and skills.
 
 [Table of Contents](#Table-of-Contents)
 
