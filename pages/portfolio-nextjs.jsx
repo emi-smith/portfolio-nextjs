@@ -27,7 +27,12 @@ const portfolioNextJs = () => {
 						Project
 					</p>
 					<h2 className='pb-2'>Overview</h2>
-					<p>Add app information here.</p>
+					<p>
+						This project was built so I could start learning Next.js and
+						Tailwind. This is the first project I have built with Next.js and
+						Tailwind, I will be building more projects in the future utilizing
+						both to increase my knowledge and skills.
+					</p>
 
 					<div className='grid grid-cols-2 justify-items-center pt-5 pb-10'>
 						<a
@@ -55,6 +60,12 @@ const portfolioNextJs = () => {
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> TailWind
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Git
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> GitHub
 							</p>
 						</div>
 					</div>
