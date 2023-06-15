@@ -27,8 +27,16 @@ const dragDrop = () => {
 						Project
 					</p>
 					<h2 className='pb-2'>Overview</h2>
-					<p>Add app information here.</p>
-
+					<p className='pb-2'>
+						A simple drag and drop to do list. My goal with this project was to
+						dive deeper into accepting user input and store the data to local
+						storage. Learn how to capture multiple inputs and store them in an
+						array, As well as save, get, edit, and update the array in local
+						storage. As well as learning how to allow users to filter, edit,
+						complete, and delete items. As well as learn more about touch
+						events.
+					</p>
+					<p className='pb-2'>This project is currently in progress.</p>
 					<div className='grid grid-cols-2 justify-items-center pt-5 pb-10'>
 						<a
 							href='https://github.com/emi-smith/drag-and-drop-to-do'
@@ -58,6 +66,12 @@ const dragDrop = () => {
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> Javascript
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Git
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> GitHub
 							</p>
 						</div>
 					</div>
