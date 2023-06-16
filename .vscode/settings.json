@@ -1,4 +1,27 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"cSpell.words": [
+		"apos",
+		"Appsheet",
+		"bfont",
+		"Bootcamp",
+		"Chacon",
+		"Dubsado",
+		"Duckett",
+		"emsshore",
+		"Haverbeke",
+		"headshot",
+		"Invision",
+		"Kaniksu",
+		"Navlogo",
+		"nextjs",
+		"noreferrer",
+		"projecturl",
+		"Squarespace",
+		"Straub",
+		"Udemy",
+		"Weebly",
+		"woocommerce"
+	]
 }
