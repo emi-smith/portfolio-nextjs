@@ -42,7 +42,7 @@ const Contact = () => {
 								<p className='flex flex-col items-center justify-evenly uppercase pt-8 pb-2'>
 									Connect with Me
 								</p>
-								<div className='flex items-center justify-center gap-12 max-w-[330px] m-auto py-10 '>
+								<div className='flex items-center justify-center gap-8 sm:gap-16 md:gap-12 max-w-[330px] m-auto py-10 '>
 									<Link href={"https://www.linkedin.com/in/emily-smith-em/"}>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
 											<FaLinkedinIn />
