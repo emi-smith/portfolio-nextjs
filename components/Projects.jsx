@@ -33,7 +33,7 @@ const Projects = () => {
 						projecturl='/sticky-notes'
 					/>
 					<ProjectItem
-						title='Protfolio Next.JS'
+						title='Portfolio Next.JS'
 						technology='Next.JS, TailWind'
 						backgroundImg={PortfolioNextJs}
 						projecturl='/portfolio-nextjs'
