@@ -233,7 +233,7 @@ const Education = () => {
 							<RiRadioButtonFill className='pr-1' /> Eloquent JavaScript
 						</p>
 						<p className='text-gray-600 text-xs italic px-4 flex items-center'>
-							by Marijn Haverbeke
+							by Martin Haverbeke
 						</p>
 					</div>
 					<div className='py-2'>
@@ -254,7 +254,7 @@ const Education = () => {
 					</div>
 					<div className='py-2'>
 						<p className='text-gray-600 flex items-center'>
-							<RiRadioButtonFill className='pr-1' /> The Pregmatic Programmer
+							<RiRadioButtonFill className='pr-1' /> The Pragmatic Programmer
 						</p>
 						<p className='text-gray-600 text-xs italic px-4 flex items-center'>
 							by Dave Thomas, Andy Hunt
