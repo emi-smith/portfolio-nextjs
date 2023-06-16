@@ -14,7 +14,7 @@
 
 ## Description
 
-This project was built so I could start learning Next.js and Tailwind. This is the first project I have built with Next.js and Tailwind, I will be building more projects in the future utilizing both to increase my knowledge and skills.
+This project was built so I could start learning Next.js and Tailwind. This is the first project I have built with Next.js and Tailwind, and will be building more projects in the future utilizing both to increase my knowledge and skills.
 
 [Table of Contents](#Table-of-Contents)
 
@@ -30,15 +30,22 @@ This project was built so I could start learning Next.js and Tailwind. This is t
 
 ## Landing-Page-Visuals
 
-[Table of Contents](#Table-of-Contents)
-
 ### Web
 
-![Screenshot](/README-IMGS/es-product-details-web.png)
+![Screenshot](/README-IMGS/portfolio-njs-desktop1.png)
+![Screenshot](/README-IMGS/portfolio-njs-desktop2.png)
+![Screenshot](/README-IMGS/portfolio-njs-desktop3.png)
 
 [Table of Contents](#Table-of-Contents)
 
 ### Mobile
+
+![Screenshot](/README-IMGS/portfolio-njs-mobile1.png)
+![Screenshot](/README-IMGS/portfolio-njs-mobile2.png)
+![Screenshot](/README-IMGS/portfolio-njs-mobile3.png)
+![Screenshot](/README-IMGS/portfolio-njs-mobile4.png)
+![Screenshot](/README-IMGS/portfolio-njs-mobile5.png)
+![Screenshot](/README-IMGS/portfolio-njs-mobile6.png)
 
 [Table of Contents](#Table-of-Contents)
 
@@ -53,6 +60,8 @@ It was fun learning how to utilize Tailwind in this project. It is very convenie
 ## Issues-and-future-changes
 
 ### Issues I came across during the build:
+
+There were no major issues that I came across during this build. I plan on developing more apps using Next.js and Tailwind to gain more advanced skills in both.
 
 ### Features that will be added in the future:
 
