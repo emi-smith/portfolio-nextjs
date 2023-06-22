@@ -109,12 +109,7 @@ const Navbar = () => {
 				>
 					<div>
 						<div className='flex w-full items-center justify-between'>
-							<Image
-								src='/../public/assets/Navlogo.png'
-								alt='/'
-								width='87'
-								height='45'
-							/>
+							<Image src={Logo} alt='/' width='87' height='45' />
 							<div
 								onClick={handleNav}
 								className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
@@ -123,8 +118,8 @@ const Navbar = () => {
 							</div>
 						</div>
 						<div className='border-b border-gray-300 my-4'>
-							<p className='w-85% md:w-[90%] py-4'>
-								Update this later, if keeping.
+							<p className='w-85% md:w-[90%] py-4 text-center'>
+								Let&apos;s Create Together.
 							</p>
 						</div>
 					</div>
@@ -157,10 +152,10 @@ const Navbar = () => {
 							</Link>
 						</ul>
 						<div className='pt-40 '>
-							<p className='uppercase tracking-widest text-[#62806a]'>
+							<p className='uppercase tracking-widest text-center text-[#62806a]'>
 								Let&apos;s Connect
 							</p>
-							<div className='flex item-center justify-between my-4 w-full sm:w-[80%]'>
+							<div className='flex item-center justify-between my-4 gap-4 w-full sm:w-[85%]'>
 								<div
 									onClick={() => setNav()}
 									className='rounded-full shadow-lg shadow-gray-400 p-3 curser-pointer hover:scale-105 ease-in duration-300'
