@@ -29,7 +29,7 @@ const About = () => {
 
 					<Link href='/resume'>
 						<p className='flex justify-center py-4 text-[#62806a] cursor-pointer'>
-							VIEW MY RESUME.
+							VIEW MY EXPERIENCE.
 						</p>
 					</Link>
 				</div>
