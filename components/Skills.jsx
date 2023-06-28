@@ -6,6 +6,7 @@ import JavascriptImg from "../public/assets/skills/javascript-logo.png";
 import TailwindImg from "../public/assets/skills/tailwind-css-logo.png";
 import ReactImg from "../public/assets/skills/react-logo.png";
 import GithubImg from "../public/assets/skills/github-logo.png";
+import NextJsImg from "../public/assets/skills/nextjs-logo-transparent.png";
 
 const Skills = () => {
 	return (
@@ -73,6 +74,34 @@ const Skills = () => {
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>GitHub</h2>
+							</div>
+						</div>
+					</div>
+					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
+						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
+							<div className='m-auto'>
+								<Image src={NextJsImg} width='64' height='64' alt='/' />
+							</div>
+							<div className='flex flex-col items-center justify-center col-span-2'>
+								<h2>Next.JS</h2>
+							</div>
+						</div>
+					</div>
+					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
+						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
+							<div className='m-auto'>
+								<svg
+									width='64'
+									height='auto'
+									viewBox='0 0 76 65'
+									fill='none'
+									xmlns='http://www.w3.org/2000/svg'
+								>
+									<path d='M37.5274 0L75.0548 65H0L37.5274 0Z' fill='#000000' />
+								</svg>
+							</div>
+							<div className='flex flex-col items-center justify-center col-span-2'>
+								<h2>Vercel</h2>
 							</div>
 						</div>
 					</div>
