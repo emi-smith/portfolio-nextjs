@@ -1,27 +1,30 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
+import {
+	AiOutlineBehance,
+	AiOutlineSlack,
+	AiOutlineTwitter,
+} from "react-icons/ai";
 import Link from "next/link";
 
 const Main = () => {
 	return (
 		<div id='Main' className='w-full h-auto md:h-screen text-center'>
 			<div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-				<div className='mt-48 sm:mt-32 md:mt-32'>
-					<p className='uppercase text-sm tracking-widest text-gray-600'>
-						Let&apos;s create something together
+				<div className='flex justify-center content-center flex-wrap flex-col mt-32'>
+					<p className='text-base font-light tracking-wider mb-4 text-[#9ca89a]'>
+						Let&apos;s Create Something Together
 					</p>
-					<h1 className='py-4 text-gray-700'>
+					<h1 className='py-4 text-[30px] sm:text-[50px] text-gray-700'>
 						Hi, I&apos;m{" "}
-						<span className='bfont-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-[#62806a] to-[#9ca89a]'>
+						<span className='bfont-extrabold text-transparent text-[45px] sm:text-[70px] bg-clip-text bg-gradient-to-r from-[#628069] to-[#9ca89a]'>
 							Emily
 						</span>
 					</h1>
-					<h2 className='py-2 max-w-[70%] m-auto text-gray-700 text-lg sm:text-3xl'>
+					<h2 className='py-2 mb-4 max-w-[95%] md:max-w-[70%] m-2 font-medium text-gray-700 text-lg sm:text-3xl'>
 						I focus on design and front-end development.
 					</h2>
-					<p className='pt-8 pb-2 text-gray-600 max-w-[70%] m-auto'>
+					<p className='mb-[14.4px] text-gray-600 max-w-[95%] md:max-w-[70%] m-auto'>
 						My passion for design and development grew during my time in college
 						and developing my jewelry business. Between classes, running my
 						business, being a wife and mom of three, I taught myself how to code
@@ -31,30 +34,35 @@ const Main = () => {
 						problem-solving. I am deeply passionate about every project I work
 						on, whether it is my own or for others.{" "}
 					</p>
-					<p className='pt-2 pb-8 text-gray-600 max-w-[70%] m-auto'>
+					<p className='mb-[14.4px] pb-6 text-gray-600 max-w-[95%] md:max-w-[70%] m-auto'>
 						My focus is on creating user-friendly and mobile-responsive designs
 						and front-end development. There is nothing more frustrating than
 						clicking into a mobile website and finding it unusable.{" "}
 					</p>
-					<div className='flex items-center justify-center gap-6 sm:gap-16 max-w-[330px] m-auto mb-2 py-10 '>
+					<div className='flex items-center justify-center gap-6 sm:gap-10 max-w-[330px] m-auto mb-2 my-10 '>
 						<Link href={"https://www.linkedin.com/in/emily-smith-em/"}>
-							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-								<FaLinkedinIn />
+							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
+								<FaLinkedinIn color='#628069' />
 							</div>
 						</Link>
 						<Link href={"https://github.com/emi-smith"}>
-							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-								<FaGithub />
+							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
+								<FaGithub color='#628069' />
 							</div>
 						</Link>
-						<Link href={"mailto:emilysmith.design.dev@gmail.com"}>
-							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-								<AiOutlineMail />
+						<Link href={"https://design-front-end-dev.slack.com/"}>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
+								<AiOutlineSlack color='#628069' />
 							</div>
 						</Link>
-						<Link href={"/resume"}>
-							<div className='rounded-full shadow-lg shadow-gray-400 p-5 curser-pointer hover:scale-110 active:bg-[#9ca89a] ease-in duration-300'>
-								<BsPersonLinesFill />
+						<Link href={"https://www.behance.net/Em_FrontEndDev"}>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
+								<AiOutlineBehance color='#628069' />
+							</div>
+						</Link>
+						<Link href={"https://twitter.com/Em_FrontEndDev"}>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
+								<AiOutlineTwitter color='#628069' />
 							</div>
 						</Link>
 					</div>
