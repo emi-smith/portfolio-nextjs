@@ -46,17 +46,21 @@ const Contact = () => {
 									Connect with Me
 								</p>
 								<div className='flex items-center justify-center gap-4 sm:gap-16 md:gap-12 max-w-[330px] m-auto py-10 '>
-									<Link href={"https://www.linkedin.com/in/emily-smith-em/"}>
+									<Link
+										target='_blank'
+										href={"https://www.linkedin.com/in/emily-smith-em/"}
+									>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 											<FaLinkedinIn color='#628069' />
 										</div>
 									</Link>
-									<Link href={"https://github.com/emi-smith"}>
+									<Link target='_blank' href={"https://github.com/emi-smith"}>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 											<FaGithub color='#628069' />
 										</div>
 									</Link>
 									<Link
+										target='_blank'
 										href={
 											"https://em-front-end-dev.slack.com/archives/C05J3LM7B0A"
 										}
@@ -65,12 +69,18 @@ const Contact = () => {
 											<AiOutlineSlack color='#628069' />
 										</div>
 									</Link>
-									<Link href={"https://www.behance.net/Em_FrontEndDev"}>
+									<Link
+										target='_blank'
+										href={"https://www.behance.net/Em_FrontEndDev"}
+									>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 											<AiOutlineBehance color='#628069' />
 										</div>
 									</Link>
-									<Link href={"https://twitter.com/Em_FrontEndDev"}>
+									<Link
+										target='_blank'
+										href={"https://twitter.com/Em_FrontEndDev"}
+									>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 											<AiOutlineTwitter color='#628069' />
 										</div>
