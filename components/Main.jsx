@@ -40,29 +40,36 @@ const Main = () => {
 						clicking into a mobile website and finding it unusable.{" "}
 					</p>
 					<div className='flex items-center justify-center gap-6 sm:gap-10 max-w-[330px] m-auto mb-2 my-10 '>
-						<Link href={"https://www.linkedin.com/in/emily-smith-em/"}>
+						<Link
+							target='_blank'
+							href={"https://www.linkedin.com/in/emily-smith-em/"}
+						>
 							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 								<FaLinkedinIn color='#628069' />
 							</div>
 						</Link>
-						<Link href={"https://github.com/emi-smith"}>
+						<Link target='_blank' href={"https://github.com/emi-smith"}>
 							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 								<FaGithub color='#628069' />
 							</div>
 						</Link>
 						<Link
+							target='_blank'
 							href={"https://em-front-end-dev.slack.com/archives/C05J3LM7B0A"}
 						>
 							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 								<AiOutlineSlack color='#628069' />
 							</div>
 						</Link>
-						<Link href={"https://www.behance.net/Em_FrontEndDev"}>
+						<Link
+							target='_blank'
+							href={"https://www.behance.net/Em_FrontEndDev"}
+						>
 							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 								<AiOutlineBehance color='#628069' />
 							</div>
 						</Link>
-						<Link href={"https://twitter.com/Em_FrontEndDev"}>
+						<Link target='_blank' href={"https://twitter.com/Em_FrontEndDev"}>
 							<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 								<AiOutlineTwitter color='#628069' />
 							</div>
