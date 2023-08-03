@@ -4,7 +4,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 const Education = () => {
 	return (
 		<div className='col-span-5 lg:col-span-2 shadow-xl shadow-gray-400 rounded-xl px-0 sm:px-6 py-6 bg-gradient-to-br from-[#ecf0f3] to-[#9ca89a] '>
-			<div className='p-6'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className=' uppercase py-2 text-2xl tracking-widest text-[#628069] '>
 					Education
 				</p>
@@ -25,7 +25,7 @@ const Education = () => {
 					</p>
 				</div>
 			</div>
-			<div className='p-6 pb-2'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className=' uppercase py-2 text-lg tracking-widest text-[#628069]'>
 					Skills
 				</p>
@@ -53,7 +53,7 @@ const Education = () => {
 					</p>
 				</div>
 			</div>
-			<div className='p-6'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className='uppercase pt-2 text-lg text-[#628069]'>
 					Programming Languages
 				</p>
@@ -69,7 +69,7 @@ const Education = () => {
 					</p>
 				</div>
 			</div>
-			<div className='p-6'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className='uppercase pt-2 text-lg text-[#628069]'>
 					Libraries & Frameworks
 				</p>
@@ -85,7 +85,7 @@ const Education = () => {
 					</p>
 				</div>
 			</div>
-			<div className='p-6'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className='uppercase pt-2 text-lg text-[#628069]'>
 					Tools & Platforms
 				</p>
@@ -155,42 +155,7 @@ const Education = () => {
 					</p>
 				</div>
 			</div>
-			<div className='p-6'>
-				<p className='uppercase pt-2 text-lg text-[#628069]'>
-					Currently strengthening skills
-				</p>
-				<div className='px-4 grid justify-items-start grid-cols-1 lg:grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4'>
-					<p className='text-gray-600 py-[5px] flex items-center'>
-						<RiRadioButtonFill className='pr-1' /> JavaScript
-					</p>
-					<p className='text-gray-600 py-[5px] flex items-center'>
-						<RiRadioButtonFill className='pr-1' /> React
-					</p>
-					<p className='text-gray-600 py-[5px] flex items-center'>
-						<RiRadioButtonFill className='pr-1' /> Next.js
-					</p>
-					<p className='text-gray-600 py-[5px] flex items-center'>
-						<RiRadioButtonFill className='pr-1' /> Tailwind
-					</p>
-				</div>
-			</div>
-			<div className='p-6'>
-				<p className='uppercase pt-2 text-lg text-[#628069]'>
-					Next areas of focus
-				</p>
-				<div className='px-4 grid justify-items-start grid-cols-1 lg:grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4'>
-					<p className='text-gray-600 py-[5px] flex items-center'>
-						<RiRadioButtonFill className='pr-1' /> React Native
-					</p>
-					<p className='text-gray-600 py-[5px] flex items-center'>
-						<RiRadioButtonFill className='pr-1' /> Web Animation
-					</p>
-					<p className='text-gray-600 py-[5px] flex items-center'>
-						<RiRadioButtonFill className='pr-1' /> Advance in UX/UI
-					</p>
-				</div>
-			</div>
-			<div className='p-6'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className='uppercase pt-2 text-lg text-[#628069]'>
 					Currently Reading
 				</p>
@@ -253,7 +218,7 @@ const Education = () => {
 					</div>
 				</div>
 			</div>
-			<div className='p-6'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className='uppercase pt-2 text-lg text-[#628069]'>Current Courses</p>
 				<div className='px-4 grid justify-items-start grid-cols-1 lg:grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4'>
 					<div className='py-2 col-span-2'>
@@ -276,7 +241,7 @@ const Education = () => {
 					</div>
 				</div>
 			</div>
-			<div className='p-6'>
+			<div className='pt-[0px] pb-[20px] px-6'>
 				<p className='uppercase pt-2 text-lg text-[#628069]'>
 					Previous Courses
 				</p>
@@ -338,37 +303,6 @@ const Education = () => {
 						<p className='text-gray-600 flex items-start'>
 							<RiRadioButtonFill className='pr-1 pt-2 min-w-[16px] min-h-[20px]' />{" "}
 							CS50&apos;s Introduction to Computer Science
-						</p>
-						<p className='text-gray-600 text-xs italic px-4 flex items-center'>
-							by edX - HarvardX
-						</p>
-					</div>
-				</div>
-			</div>
-			<div className='p-6'>
-				<p className='uppercase pt-2 text-lg text-[#628069]'>Future Courses</p>
-				<div className='px-4 grid justify-items-start grid-cols-2 lg:grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-x-4'>
-					<div className='grid grid-cols-1 col-span-2 py-2'>
-						<p className='text-gray-600 flex items-center'>
-							<RiRadioButtonFill className='pr-1' /> Full Stack Javascript
-						</p>
-						<p className='text-gray-600 text-xs italic px-4 flex items-center'>
-							by The Odin Project
-						</p>
-					</div>
-					<div className='grid grid-cols-1 col-span-2 py-2'>
-						<p className='text-gray-600 flex items-center'>
-							<RiRadioButtonFill className='flex item-start pr-1' /> Full Stack
-							Open
-						</p>
-						<p className='text-gray-600 text-xs italic px-4 flex items-center'>
-							by University of Helsinki
-						</p>
-					</div>
-					<div className='grid grid-cols-1 col-span-2 py-2'>
-						<p className='text-gray-600 flex items-start'>
-							<RiRadioButtonFill className='pr-1 pt-2 min-w-[16px] min-h-[20px]' />
-							CS50&apos;s Web Programming with Python and JavaScript
 						</p>
 						<p className='text-gray-600 text-xs italic px-4 flex items-center'>
 							by edX - HarvardX
