@@ -12,7 +12,7 @@ const Main = () => {
 		<div id='Main' className='w-full h-auto md:h-screen text-center'>
 			<div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
 				<div className='flex justify-center content-center flex-wrap flex-col mt-32'>
-					<p className='text-base font-light tracking-wider mb-4 text-[#9ca89a]'>
+					<p className='text-base font-light tracking-wider mb-4 text-[#628069]'>
 						Let&apos;s Create Something Together
 					</p>
 					<h1 className='py-4 text-[30px] sm:text-[50px] text-gray-700'>
