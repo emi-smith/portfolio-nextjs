@@ -182,17 +182,21 @@ const Navbar = () => {
 								Let&apos;s Connect
 							</p>
 							<div className='flex item-center justify-center my-4 gap-3 sm:gap-5 w-full'>
-								<Link href={"https://www.linkedin.com/in/emily-smith-em/"}>
+								<Link
+									target='_blank'
+									href={"https://www.linkedin.com/in/emily-smith-em/"}
+								>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-[12px] w-[40px] h-[40px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 										<FaLinkedinIn color='#628069' />
 									</div>
 								</Link>
-								<Link href={"https://github.com/emi-smith"}>
+								<Link target='_blank' href={"https://github.com/emi-smith"}>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-[12px] w-[40px] h-[40px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 										<FaGithub color='#628069' />
 									</div>
 								</Link>
 								<Link
+									target='_blank'
 									href={
 										"https://em-front-end-dev.slack.com/archives/C05J3LM7B0A"
 									}
@@ -201,12 +205,18 @@ const Navbar = () => {
 										<AiOutlineSlack color='#628069' />
 									</div>
 								</Link>
-								<Link href={"https://www.behance.net/Em_FrontEndDev"}>
+								<Link
+									target='_blank'
+									href={"https://www.behance.net/Em_FrontEndDev"}
+								>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-[12px] w-[40px] h-[40px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 										<AiOutlineBehance color='#628069' />
 									</div>
 								</Link>
-								<Link href={"https://twitter.com/Em_FrontEndDev"}>
+								<Link
+									target='_blank'
+									href={"https://twitter.com/Em_FrontEndDev"}
+								>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-[13px] w-[40px] h-[40px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 										<AiOutlineTwitter color='#628069' />
 									</div>
