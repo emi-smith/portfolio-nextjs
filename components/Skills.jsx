@@ -12,15 +12,15 @@ const Skills = () => {
 	return (
 		<div id='Skills' className='w-full lg:h-screen p-2 pl-4'>
 			<div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-				<p className=' uppercase text-1 tracking-widest text-[#62806a]'>
+				<p className=' uppercase text-xl tracking-widest text-[#628069]'>
 					Skills
 				</p>
 				<h2 className='py-4'>What I can do</h2>
-				<div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+				<div className='w-[96%] md:w-full grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image src={HtmlImg} width='64' height='64' alt='/' />
+								<Image src={HtmlImg} width='64' height='64' alt='HTML5 logo' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>HTML</h2>
@@ -30,7 +30,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image src={CssImg} width='64' height='64' alt='/' />
+								<Image src={CssImg} width='64' height='64' alt='CSS3 Logo' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>CSS</h2>
@@ -40,7 +40,12 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image src={JavascriptImg} width='64' height='64' alt='/' />
+								<Image
+									src={JavascriptImg}
+									width='64'
+									height='64'
+									alt='JavaScript logo'
+								/>
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>JavaScript</h2>
@@ -50,7 +55,12 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image src={TailwindImg} width='64' height='64' alt='/' />
+								<Image
+									src={TailwindImg}
+									width='64'
+									height='64'
+									alt='Tailwind CSS logo'
+								/>
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>Tailwind</h2>
@@ -60,7 +70,7 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image src={ReactImg} width='64' height='64' alt='/' />
+								<Image src={ReactImg} width='64' height='64' alt='React logo' />
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>React</h2>
@@ -70,7 +80,12 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image src={GithubImg} width='64' height='64' alt='/' />
+								<Image
+									src={GithubImg}
+									width='64'
+									height='64'
+									alt='GitHub logo'
+								/>
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
 								<h2>GitHub</h2>
@@ -80,10 +95,15 @@ const Skills = () => {
 					<div className='flex p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 justify-center items-center'>
 						<div className='grid grid-cols-3 gap-6 justify-center items-center'>
 							<div className='m-auto'>
-								<Image src={NextJsImg} width='64' height='64' alt='/' />
+								<Image
+									src={NextJsImg}
+									width='64'
+									height='64'
+									alt='Next.js logo'
+								/>
 							</div>
 							<div className='flex flex-col items-center justify-center col-span-2'>
-								<h2>Next.JS</h2>
+								<h2>Next.js</h2>
 							</div>
 						</div>
 					</div>
@@ -92,7 +112,7 @@ const Skills = () => {
 							<div className='m-auto'>
 								<svg
 									width='64'
-									height='auto'
+									height='50'
 									viewBox='0 0 76 65'
 									fill='none'
 									xmlns='http://www.w3.org/2000/svg'
