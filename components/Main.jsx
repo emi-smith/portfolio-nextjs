@@ -22,7 +22,7 @@ const Main = () => {
 						</span>
 					</h1>
 					<h2 className='py-2 mb-4 max-w-[95%] md:max-w-[70%] m-2 font-medium text-gray-700 text-lg sm:text-3xl'>
-						I focus on design and front-end development.
+						I focus on front-end development.
 					</h2>
 					<p className='mb-[14.4px] text-gray-600 max-w-[95%] md:max-w-[70%] m-auto'>
 						My passion for design and development grew during my time in college
