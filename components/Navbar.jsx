@@ -192,7 +192,11 @@ const Navbar = () => {
 										<FaGithub color='#628069' />
 									</div>
 								</Link>
-								<Link href={"https://design-front-end-dev.slack.com/"}>
+								<Link
+									href={
+										"https://em-front-end-dev.slack.com/archives/C05J3LM7B0A"
+									}
+								>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-[12px] w-[40px] h-[40px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
 										<AiOutlineSlack color='#628069' />
 									</div>
