@@ -21,13 +21,7 @@ const Navbar = () => {
 	const router = useRouter();
 
 	useEffect(() => {
-		if (
-			router.asPath === "/sticky-notes"
-			//   ||
-			//   router.asPath === '/crypto' ||
-			//   router.asPath === '/netflix' ||
-			//   router.asPath === '/twitch'
-		) {
+		if (router.asPath === "/sticky-notes") {
 			setNavBg("transparent");
 			setLinkColor("#ecf0f3");
 		} else {
