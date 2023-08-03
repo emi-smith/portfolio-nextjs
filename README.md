@@ -65,7 +65,7 @@ There were no major issues that I came across during this build. I plan on devel
 
 ### Features that will be added in the future:
 
-There are no plans for future changes.
+I will be breaking down the resume page into more components in the future.
 
 [Table of Contents](#Table-of-Contents)
 
