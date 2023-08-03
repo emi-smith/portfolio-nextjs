@@ -34,5 +34,9 @@ li {
 }
 
 button {
-	@apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#62806a] to-[#9ca89a] text-white;
+	@apply shadow-xl shadow-gray-400 rounded-md tracking-wider uppercase bg-gradient-to-r from-[#628069] to-[#9ca89a] text-white;
+}
+
+button:hover {
+	@apply bg-gradient-to-r hover:font-medium from-[#9ca89a] to-[#628069] ease-in-out duration-300;
 }
