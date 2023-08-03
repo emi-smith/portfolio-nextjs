@@ -9,7 +9,7 @@ const Projects = () => {
 	return (
 		<div id='Projects' className='w-full'>
 			<div className='max-w-[1240px] mx-auto px-z py-16 pl-4'>
-				<p className=' uppercase text-xl tracking-widest text-[#62806a]'>
+				<p className=' uppercase text-xl tracking-widest text-[#628069]'>
 					Projects
 				</p>
 				<h2 className='py-4'>What I&apos;ve Built</h2>
@@ -33,8 +33,8 @@ const Projects = () => {
 						projecturl='/sticky-notes'
 					/>
 					<ProjectItem
-						title='Portfolio Next.JS'
-						technology='Next.JS, TailWind'
+						title='Portfolio Next.js'
+						technology='Next.js, Tailwind'
 						backgroundImg={PortfolioNextJs}
 						projecturl='/portfolio-nextjs'
 					/>
