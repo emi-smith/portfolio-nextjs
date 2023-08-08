@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import {
-	AiOutlineBehance,
+	AiOutlineCodepen,
 	AiOutlineSlack,
 	AiOutlineTwitter,
 } from "react-icons/ai";
@@ -69,12 +69,9 @@ const Contact = () => {
 											<AiOutlineSlack color='#628069' />
 										</div>
 									</Link>
-									<Link
-										target='_blank'
-										href={"https://www.behance.net/Em_FrontEndDev"}
-									>
+									<Link target='_blank' href={"https://codepen.io/EmSmith"}>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-[14px] w-[44px] h-[44px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
-											<AiOutlineBehance color='#628069' />
+											<AiOutlineCodepen color='#628069' />
 										</div>
 									</Link>
 									<Link

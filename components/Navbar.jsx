@@ -4,7 +4,7 @@ import Link from "next/link";
 import {
 	AiOutlineClose,
 	AiOutlineMenu,
-	AiOutlineBehance,
+	AiOutlineCodepen,
 	AiOutlineSlack,
 	AiOutlineTwitter,
 } from "react-icons/ai";
@@ -199,12 +199,9 @@ const Navbar = () => {
 										<AiOutlineSlack color='#628069' />
 									</div>
 								</Link>
-								<Link
-									target='_blank'
-									href={"https://www.behance.net/Em_FrontEndDev"}
-								>
+								<Link target='_blank' href={"https://codepen.io/EmSmith"}>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-[12px] w-[40px] h-[40px] curser-pointer hover:scale-110 hover:bg-[#9ca89a] ease-in duration-300'>
-										<AiOutlineBehance color='#628069' />
+										<AiOutlineCodepen color='#628069' />
 									</div>
 								</Link>
 								<Link
